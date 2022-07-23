@@ -38,19 +38,20 @@
 			<main>
 				<h1>Order Event Tickets</h1>
 				<form name="order_form" method="post" action="place_order.html">
-					<fieldset name="Ordering Information">
-						<select name="Event" id="Ordering Information">
+					<fieldset name="Ordering Information" id="orderInfo">
+						<label for="orderInfo">Ordering Information</label>
+						<select name="Event" id="event">
 							<option value="Cookie Decoration Contest" selected></option>
 							<option value="Tree Decortation Contest"></option>
 							<option value="Gift of Life Ride-Along"></option>
 							<option value="Breakfast with Santa"></option>
 						</select>
-						<select name="Order Type" id="Ordering Information">
+						<select name="Order Type" id="orderType">
 							<option value="Member Package"></option>
 							<option value="Donor Package"></option>
 							<option value="Single Tickets"></option>
 						</select>
-						<select name="Card Type" id="Ordering Information">
+						<select name="Card Type" id="cardType">
 							<option value="Visa"></option>
 							<option value="Master Card"></option>
 							<option value="Discover"></option>
