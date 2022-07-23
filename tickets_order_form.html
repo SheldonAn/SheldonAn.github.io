@@ -39,7 +39,7 @@
 				<h1>Order Event Tickets</h1>
 				<form name="order_form" method="post" action="place_order.html">
 					<fieldset name="Ordering Information" id="orderInfo">
-						<label for="orderInfo">Ordering Information</label>
+						<legend>Ordering Information</legend>
 						<select name="Event" id="event">
 							<option value="Cookie Decoration Contest" selected></option>
 							<option value="Tree Decortation Contest"></option>
@@ -58,10 +58,12 @@
 						</select>
 					</fieldset>
 					<fieldset name="Payment Method">
+						<legend>Payment Method</legend>
 						<input type="radio" name="Payment Method" id="Visa" value="Visa"><br>
 						<input type="radio" name="Payment Method" id="Bill Me" value="Bill Me"><br>
 					</fieldset>
 					<fieldset name="Expiration Date">
+						<legend>Expiration Date</legend>
 						<select name="Expiration Date" id="Month">
 							<option value="January"></option>
 							<option value="February"></option>
