@@ -40,6 +40,9 @@
 				<form name="order_form" method="post" action="place_order.html">
 					<fieldset name="Ordering Information" id="orderInfo">
 						<legend>Ordering Information</legend>
+						<label for="Event">Event:</label>
+						<label for="Order Type">Order Type:</label>
+						<label for="noTickets">Number of Tickets:</label>
 						<select name="Event" id="event">
 							<option value="Cookie Decoration Contest" selected></option>
 							<option value="Tree Decortation Contest"></option>
@@ -51,6 +54,9 @@
 							<option value="Donor Package"></option>
 							<option value="Single Tickets"></option>
 						</select>
+						<input type="text" name="noTickets">
+					</fieldset>
+					<fieldset>
 						<select name="Card Type" id="cardType">
 							<option value="Visa"></option>
 							<option value="Master Card"></option>
