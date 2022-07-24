@@ -202,17 +202,15 @@ fieldset label {
 fieldset input {
 	width: 15em;
 	font-size: 90%;
-	margin: auto;
-	text-align: center;
+	margin: 3px;
 }
 
 fieldset select {
 	width: 15em;
 	font-size: 90%;
-	margin: auto;
+	margin: 3px;
 }
 
-/*
 input[type="radio"]{
 	width:1em;
 }
