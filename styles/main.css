@@ -192,25 +192,27 @@ fieldset legend {
 	margin: 5px;
 	color: grey;
 	font-weight: bold;
-	vertical-align: middle;
 }
 
 fieldset label {
 	text-align: right;
 	font-size: 90%;
 	margin: 2px;
+	vertical-align: middle;
 }
 
 fieldset input {
 	width: 15em;
 	font-size: 90%;
 	margin: 2px;
+	vertical-align: middle;
 }
 
 fieldset select {
 	width: 15em;
 	font-size: 90%;
 	margin: 2px;
+	vertical-align: middle;
 }
 
 input[type="radio"]{
