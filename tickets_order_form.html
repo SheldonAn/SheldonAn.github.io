@@ -44,38 +44,38 @@
 						<label for="email">E-mail:</label>
 						<input type="email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" autofocus><br>
 						<label for="firstName">First Name:</label>
-						<input type="text" name="firstName" pattern="[A-Za-z]{1,32}"><br>
+						<input type="text" name="firstName" pattern="[A-Za-z]{1,32}" required><br>
 						<label for="lastName">Last Name:</label>
-						<input type="text" name="lastName" pattern="[A-Za-z]{1,32}"><br>
+						<input type="text" name="lastName" pattern="[A-Za-z]{1,32}" required><br>
 						<label for="address">Address:</label>
 						<input type="text" name="address"><br>
 						<label for="city">City:</label>
-						<input type="text" name="city" pattern="[A-Za-z]{1,32}"><br>
+						<input type="text" name="city" pattern="[A-Za-z]{1,32}" required><br>
 						<label for="province">Province:</label>
-						<input type="text" name="province" pattern="[A-Z]{2}" title="Expecting a 2-letter code" placeholder="2-character code"><br>
+						<input type="text" name="province" pattern="[A-Z]{2}" title="Expecting a 2-letter code" placeholder="2-character code" required><br>
 						<label for="postalCode">Postal Code:</label>
-						<input type="text" name="postalCode" patter="[A-Za-z0-9]{6}" title="Expecting exactly 6 alphanumeric characters" placeholder="6 characters"><br>
+						<input type="text" name="postalCode" patter="[A-Za-z0-9]{6}" title="Expecting exactly 6 alphanumeric characters" placeholder="6 characters" required><br>
 						<label for="phoneNo">Phone Number:</label>
-						<input type="tel" name="phoneNo" pattern=“\d{3}[\-]\d{3}[\-]\d{4}” title="Expecting the value to be provided in '999-999-9999' format" placeholder="999-999-9999">
+						<input type="tel" name="phoneNo" pattern=“\d{3}[\-]\d{3}[\-]\d{4}” title="Expecting the value to be provided in '999-999-9999' format" placeholder="999-999-9999" required>
 					</fieldset>
 
 					<fieldset name="orderInfo">
 						<legend>Ordering Information</legend>
-						<label for="Event">Event:</label>
-						<select name="Event" id="event">
+						<label for="event">Event:</label>
+						<select name="event" id="event">
 							<option value="Cookie Decoration Contest" selected>Cookie Decoration Contest</option>
 							<option value="Tree Decortation Contest">Tree Decortation Contest</option>
 							<option value="Gift of Life Ride-Along">Gift of Life Ride-Along</option>
 							<option value="Breakfast with Santa">Breakfast with Santa</option>
 						</select><br>
-						<label for="Order Type">Order Type:</label>
-						<select name="Order Type" id="orderType">
+						<label for="orderType">Order Type:</label>
+						<select name="orderType" id="orderType">
 							<option value="Member Package">Member Package</option>
 							<option value="Donor Package">Donor Package</option>
 							<option value="Single Tickets">Single Tickets</option>
 						</select><br>
 						<label for="noTickets">Number of Tickets:</label>
-						<input type="number" name="noTickets" title="Expecting a number" placeholder="Number of single tickets">
+						<input type="number" name="noTickets" title="Expecting a number" placeholder="Number of single tickets" required>
 					</fieldset>
 					
 					<fieldset name="payMeth">

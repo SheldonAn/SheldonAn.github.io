@@ -191,14 +191,39 @@ fieldset legend {
 	margin: 5px;
 	color: grey;
 	font-weight: bold;
+	font-size: 85%;
 }
 
 fieldset label {
 	float: left;
 	align-items: right;
+	font-size: 90%;
 }
 
 fieldset input {
 	float:right;
 	width: 15em;
+	font-size: 90%
+}
+
+fieldset select {
+	float:right;
+	width: 15em;
+	font-size: 90%
+}
+
+fieldset #firstName, #lastName, #city, #province, #postalCode, #cardNo {
+	border: orange 2px;
+}
+
+fieldset #email, #address, #phoneNo, #event, #orderType, #noTickets, #cardType, #expirationDateM, #expirationDateY {
+	border: black 1px;
+}
+
+fieldset select #expirationDateM {
+	width: 7em;
+}
+
+fieldset select #expirationDateY {
+	width: 5em;
 }
