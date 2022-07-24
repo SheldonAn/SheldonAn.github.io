@@ -186,3 +186,9 @@ footer p {
 fieldset {
 	margin: 5%;
 }
+
+fieldset legend {
+	margin: 5px;
+	color: grey;
+	font-weight: bold;
+}
