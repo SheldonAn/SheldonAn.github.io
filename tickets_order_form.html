@@ -38,6 +38,7 @@
 			<main>
 				<h1>Order Event Tickets</h1>
 				<form name="order_form" method="post" action="place_order.html">
+					
 					<fieldset>
 						<legend>Member Information</legend>
 						<label for="email">E-mail:</label>
@@ -57,6 +58,7 @@
 						<label for="phoneNo">Phone Number:</label>
 						<input type="text" name="phoneNo">
 					</fieldset>
+
 					<fieldset name="Ordering Information" id="orderInfo">
 						<legend>Ordering Information</legend>
 						<label for="Event">Event:</label>
@@ -65,16 +67,23 @@
 							<option value="Tree Decortation Contest"></option>
 							<option value="Gift of Life Ride-Along"></option>
 							<option value="Breakfast with Santa"></option>
-						</select>
+						</select><br>
 						<label for="Order Type">Order Type:</label>
 						<select name="Order Type" id="orderType">
 							<option value="Member Package"></option>
 							<option value="Donor Package"></option>
 							<option value="Single Tickets"></option>
-						</select>
+						</select><br>
 						<label for="noTickets">Number of Tickets:</label>
 						<input type="text" name="noTickets">
 					</fieldset>
+					
+					<fieldset name="Payment Method">
+						<legend>Payment Method</legend>
+						<input type="radio" name="Payment Method" id="Visa" value="Visa">
+						<input type="radio" name="Payment Method" id="Bill Me" value="Bill Me">
+					</fieldset>
+					
 					<fieldset>
 						<legend>Credit Card Information</legend>
 						<select name="Card Type" id="cardType">
@@ -82,11 +91,16 @@
 							<option value="Master Card"></option>
 							<option value="Discover"></option>
 						</select>
-					</fieldset>
-					<fieldset name="Payment Method">
-						<legend>Payment Method</legend>
-						<input type="radio" name="Payment Method" id="Visa" value="Visa"><br>
-						<input type="radio" name="Payment Method" id="Bill Me" value="Bill Me"><br>
+						<input type="text" name="cardNumber" id="cardNumber">
+						<select name="Expiration Date" id="Year">
+							<option value="2021"></option>
+							<option value="2022"></option>
+							<option value="2023"></option>
+							<option value="2024"></option>
+							<option value="2025"></option>
+							<option value="2026"></option>
+							<option value="2027"></option>
+						</select>
 						<select name="Expiration Date" id="Month">
 							<option value="January"></option>
 							<option value="February"></option>
@@ -101,16 +115,8 @@
 							<option value="November"></option>
 							<option value="December"></option>
 						</select>
-						<select name="Expiration Date" id="Year">
-							<option value="2021"></option>
-							<option value="2022"></option>
-							<option value="2023"></option>
-							<option value="2024"></option>
-							<option value="2025"></option>
-							<option value="2026"></option>
-							<option value="2027"></option>
-						</select>
 					</fieldset>
+					
 				</form>
 			</main>
 			
