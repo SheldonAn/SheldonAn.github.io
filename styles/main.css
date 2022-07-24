@@ -184,11 +184,21 @@ footer p {
 }
 
 fieldset {
-	margin: 5%;
+	margin: 10px;
 }
 
 fieldset legend {
 	margin: 5px;
 	color: grey;
 	font-weight: bold;
+}
+
+fieldset label {
+	float: left;
+	align-items: right;
+}
+
+fieldset input {
+	float:right;
+	width: 15em;
 }
