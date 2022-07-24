@@ -203,14 +203,14 @@ fieldset input {
 	width: 15em;
 	font-size: 90%;
 	margin: 3px;
-	margin-left: 50px;
+	text-align: center;
 }
 
 fieldset select {
 	width: 15em;
 	font-size: 90%;
 	margin: 3px;
-	margin-left: 50px;
+	text-align: center;
 }
 
 /*
