@@ -204,7 +204,6 @@ fieldset input {
 	width: 15em;
 	font-size: 90%;
 	margin: 2px;
-
 }
 
 fieldset select {
@@ -213,11 +212,15 @@ fieldset select {
 	margin: 2px;
 }
 
-#firstName, #lastName, #city, #province, #postalCode, #cardNo {
+input[type="radio"]{
+	width:1em;
+}
+
+input, select #firstName, #lastName, #city, #province, #postalCode, #cardNo {
 	border: orange 2px;
 }
 
-#email, #address, #phoneNo, #event, #orderType, #noTickets, #cardType, #expirationDateM, #expirationDateY {
+input, select #email, #address, #phoneNo, #event, #orderType, #noTickets, #cardType, #expirationDateM, #expirationDateY {
 	border: black 1px;
 }
 
