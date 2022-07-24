@@ -218,17 +218,27 @@ input[type="radio"]{
 }
 
 input, select #firstName, #lastName, #city, #province, #postalCode, #cardNo {
-	border: orange 2px;
+	border: 2px;
+	border-color: orange;
 }
 
 input, select #email, #address, #phoneNo, #event, #orderType, #noTickets, #cardType, #expirationDateM, #expirationDateY {
-	border: black 1px;
+	border: 1px;
+	border-color: black;
 }
 
-#expirationDateM {
+fieldset #expirationDateM {
 	width: 7em;
 }
 
-#expirationDateY {
+fieldset #expirationDateY {
 	width: 5em;
+}
+
+input [type="submit"]{
+	width:10em;
+}
+
+input [type="reset"]{
+	width:10em;
 }
