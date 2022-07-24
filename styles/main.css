@@ -227,11 +227,11 @@ input[type="radio"]{
 	border-color: black;
 }
 
-fieldset #expirationDateM {
+#expirationDateM {
 	width: 7em;
 }
 
-fieldset #expirationDateY {
+#expirationDateY {
 	width: 5em;
 }
 
