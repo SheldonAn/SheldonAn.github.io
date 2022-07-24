@@ -217,12 +217,12 @@ input[type="radio"]{
 	width:1em;
 }
 
-input, select #firstName, #lastName, #city, #province, #postalCode, #cardNo {
+#firstName, #lastName, #city, #province, #postalCode, #cardNo {
 	border: 2px;
 	border-color: orange;
 }
 
-input, select #email, #address, #phoneNo, #event, #orderType, #noTickets, #cardType, #expirationDateM, #expirationDateY {
+#email, #address, #phoneNo, #event, #orderType, #noTickets, #cardType, #expirationDateM, #expirationDateY {
 	border: 1px;
 	border-color: black;
 }
