@@ -202,26 +202,29 @@ fieldset label {
 
 fieldset input {
 	width: 15em;
-	font-size: 90%
+	font-size: 90%;
+	margin: 2px;
+
 }
 
 fieldset select {
 	width: 15em;
-	font-size: 90%
+	font-size: 90%;
+	margin: 2px;
 }
 
-fieldset #firstName, #lastName, #city, #province, #postalCode, #cardNo {
+#firstName, #lastName, #city, #province, #postalCode, #cardNo {
 	border: orange 2px;
 }
 
-fieldset #email, #address, #phoneNo, #event, #orderType, #noTickets, #cardType, #expirationDateM, #expirationDateY {
+#email, #address, #phoneNo, #event, #orderType, #noTickets, #cardType, #expirationDateM, #expirationDateY {
 	border: black 1px;
 }
 
-fieldset select #expirationDateM {
+#expirationDateM {
 	width: 7em;
 }
 
-fieldset select #expirationDateY {
+#expirationDateY {
 	width: 5em;
 }
