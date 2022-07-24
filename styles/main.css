@@ -195,13 +195,12 @@ fieldset legend {
 }
 
 fieldset label {
-	float: left;
 	align-items: right;
 	font-size: 90%;
+	margin: 2px;
 }
 
 fieldset input {
-	float:right;
 	width: 15em;
 	font-size: 90%
 }
