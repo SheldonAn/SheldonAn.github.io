@@ -206,7 +206,6 @@ fieldset input {
 }
 
 fieldset select {
-	float:right;
 	width: 15em;
 	font-size: 90%
 }
