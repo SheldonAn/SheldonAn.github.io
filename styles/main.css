@@ -185,11 +185,10 @@ footer p {
 
 fieldset {
 	margin: 10px;
-	align-items: center;
 }
 
 fieldset legend {
-	margin: 5px;
+	margin-bottom: 5px;
 	color: grey;
 	font-weight: bold;
 }
@@ -197,24 +196,24 @@ fieldset legend {
 fieldset label {
 	text-align: right;
 	font-size: 90%;
-	margin: 2px;
-	vertical-align: middle;
+	margin: 3px;
 }
 
 fieldset input {
 	width: 15em;
 	font-size: 90%;
-	margin: 2px;
-	vertical-align: middle;
+	margin: 3px;
+	margin-left: 50px;
 }
 
 fieldset select {
 	width: 15em;
 	font-size: 90%;
-	margin: 2px;
-	vertical-align: middle;
+	margin: 3px;
+	margin-left: 50px;
 }
 
+/*
 input[type="radio"]{
 	width:1em;
 }
