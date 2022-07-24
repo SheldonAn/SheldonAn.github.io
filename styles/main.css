@@ -185,6 +185,7 @@ footer p {
 
 fieldset {
 	margin: 10px;
+	align-items: center;
 }
 
 fieldset legend {
