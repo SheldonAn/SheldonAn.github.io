@@ -37,9 +37,9 @@
 			
 			<main>
 				<h1>Order Event Tickets</h1>
-				<form name="order_form" method="post" action="place_order.html">
+				<form name="order_form" method="post" action="../place_order.html">
 					
-					<fieldset>
+					<fieldset name="memberInfo">
 						<legend>Member Information</legend>
 						<label for="email">E-mail:</label>
 						<input type="email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" autofocus><br>
@@ -59,7 +59,7 @@
 						<input type="tel" name="phoneNo" pattern=“\d{3}[\-]\d{3}[\-]\d{4}” title="Expecting the value to be provided in '999-999-9999' format" placeholder="999-999-9999">
 					</fieldset>
 
-					<fieldset name="Ordering Information" id="orderInfo">
+					<fieldset name="orderInfo">
 						<legend>Ordering Information</legend>
 						<label for="Event">Event:</label>
 						<select name="Event" id="event">
@@ -78,13 +78,13 @@
 						<input type="number" name="noTickets" title="Expecting a number" placeholder="Number of single tickets">
 					</fieldset>
 					
-					<fieldset name="Payment Method">
+					<fieldset name="payMeth">
 						<legend>Payment Method</legend>
 						<input type="radio" name="billMe" id="Bill Me" value="Bill Me">Bill Me
 						<input type="radio" name="creditCard" id="Credit Card" value="Credit Card">Credit Card
 					</fieldset>
 					
-					<fieldset>
+					<fieldset name="creditCardInfo">
 						<legend>Credit Card Information</legend>
 						<label for="cardType">Card Type:</label>
 						<select name="cardType" id="cardType">
@@ -121,7 +121,7 @@
 						</select>
 					</fieldset>
 
-					<fieldset>
+					<fieldset name="submitRes">
 						<legend>Submit Your Order</legend>
 						<input type="submit" name="submit" value = "Submit">
 						<input type="reset" name="resetForm" value = "Reset">

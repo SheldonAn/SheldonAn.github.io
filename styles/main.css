@@ -182,3 +182,7 @@ footer p {
 	font-size: 80%;
 	text-align: center;
 }
+
+fieldset {
+	margin: 5%;
+}
